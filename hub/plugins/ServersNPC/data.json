@@ -1,0 +1,36 @@
+[
+  {
+    "id": 0,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY1NjI1MDI4NDc5MSwKICAicHJvZmlsZUlkIiA6ICIxZjEyNTNhYTVkYTQ0ZjU5YWU1YWI1NmFhZjRlNTYxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RNaWt5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUzYmFlZGE2YjQzMWM1NjQ4NTM2MWEyMzIzMDJiY2JlYjMxMmE2ZjEwYWZkODNlMWIxMDFjMmJlNDg5NDhmNWUiCiAgICB9CiAgfQp9",
+    "signature": "MfObDOVqL2srdZWqQECFviFTgYAj6J72RzDHrZfKQEYuBbJGzj+hp731+GC68gWHv8jTNlfrY1EytUf28kb4sDoqV4yHe6GgfcI0ocqxXjzeMUcjkr1cfv0ckaMiUQ6bv3XimgxGl5Xo+9zDpECiHuGcfbDzLgpOKhaThQIBRtuyaI2fosqnCoM36Y4mRprFsAigp8r+UtOhJAMUHOdUw16DSDk3ui73hBDbQdhYZhRGDFmYo6/nYfrhGeaBTNhP6eegh5BCCD74t3t9i7Z8Kln5//z6PQxBpR1i0rNg2Ez/ApTEsS53pdOMPkX8Av+nb3zyiO404K07x+r88r+6k21wCav7E5X8WEARi0jC56zxsQvrzNnTP2P13iZ7y2CcAxVkI/YhI6gE9jeJiZ3AZMdPFmaZ8Il37NMY7gpfFMO3RAlnvfwJyKeN5IYMBNN69ST1wxf9Ot23ZlFtAaFW5Vj2n7V5s2oN+EkEj+aPO2XUvgEpG1AkhVWbJAN9c2/lZ18XvB6SVpky7moMQhmwDajmLp+h623Tvj5EyDHjvzSFq98U/mpTVaMRy2Pnb7QQH+vn6YnWNNHwmg0S2B47hvImRmYNwG3fSMZZFSvXlG19nISitnr+hkeYojh5HiC+Z3z4lSAqtijH5LFp89Ip0yNrE0QW74LuTTQL00VysVM=",
+    "skinName": "https://s.namemc.com/i/1f7e3bb3cb364bc7.png",
+    "location": {
+      "world": "world",
+      "x": -429.5,
+      "y": 137.0,
+      "z": -199.5,
+      "yaw": -179.55228,
+      "pitch": -0.14970703
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&7[%bungee_valhalla%/64]",
+      "&bValhalla"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "SERVER",
+        "clickType": "DEFAULT",
+        "action": "valhalla",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true
+    },
+    "customizationMap": {}
+  }
+]

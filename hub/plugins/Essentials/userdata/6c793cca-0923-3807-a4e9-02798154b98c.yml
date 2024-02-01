@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1706773372768
+  lastteleport: 1706784074985
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1706777167006
-  login: 1706774818611
+  logout: 1706784502652
+  login: 1706784500010
   kits:
     tools: 1706626979327
 money: '0'
@@ -25,16 +25,16 @@ last-account-name: seymour_og
 lastlocation:
   world: 93bcec04-47f6-46e8-acca-116506ade162
   world-name: world
-  x: -429.82394653283336
-  y: 141.24812261182964
-  z: -205.62723686923107
-  yaw: 176.99822998046875
-  pitch: 16.20020866394043
+  x: -430.9606041962266
+  y: 136.0
+  z: -214.78567075180356
+  yaw: 1.1975014209747314
+  pitch: 2.250060796737671
 logoutlocation:
   world: 93bcec04-47f6-46e8-acca-116506ade162
   world-name: world
-  x: -430.8593606293116
+  x: -429.5
   y: 136.0
-  z: -219.3172526446821
-  yaw: 0.2976835370063782
-  pitch: 12.900079727172852
+  z: -215.5
+  yaw: -2.701418876647949
+  pitch: -3.5999088287353516

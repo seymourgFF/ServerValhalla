@@ -48,31 +48,31 @@ items:
   filler:
     material: GRAY_STAINED_GLASS_PANE
     slot: -1 # Setting the slot to -1 will fill every empty slot, you can also do "slots: [0, 1, 2]"
-  factions:
+  valhalla:
     material: TNT
-    slot: 11
+    slot: 13
     amount: 1
     glow: true
-    display_name: '&eFactions'
+    display_name: '&eValhalla'
     lore:
       - '&7Join now!'
-      - '&aPlaceholderAPI support!'
+      - '&7[%bungee_valhalla%/64]'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eFactions'
-      - '[BUNGEE] factions'
+      - '[MESSAGE] &7Sending you to: &eValhalla'
+      - '[BUNGEE] valhalla'
       # For multi-world servers using Multiverse-Core, use the action:
       # - '[CONSOLE] mvtp %player% world'
-  survival:
-    material: GRASS_BLOCK
-    slot: 15
-    amount: 1
-    glow: false
-    display_name: '&aSurvival'
-    lore:
-      - '&7Join now!'
-      - '&aMulti lore support too!'
-    actions:
-      - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eSurvival'
-      - '[BUNGEE] survival'
+  #survival:
+  #  material: GRASS_BLOCK
+  #  slot: 15
+  #  amount: 1
+  #  glow: false
+  #  display_name: '&aSurvival'
+  #  lore:
+  #    - '&7Join now!'
+  #    - '&aMulti lore support too!'
+  #  actions:
+  #    - '[CLOSE]'
+  #    - '[MESSAGE] &7Sending you to: &eSurvival'
+  #    - '[BUNGEE] survival'

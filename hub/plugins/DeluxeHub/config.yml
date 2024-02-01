@@ -90,14 +90,14 @@ scoreboard:
     enabled: true
     rate: 200 # In ticks (20 ticks = 1 second)
 
-  title: "&d&lDeluxeHub 3 &7(%online%/%online_max%)"
+  title: "&d&lTiltozavr server &7(%online%/%online_max%)"
   lines:
     - "&7&m----------------------"
     - "&e&lPlayer:"
     - "  &f%player%"
     - ""
-    - "&e&lRank:"
-    - "  &f%vault_rank%"
+    - "&e&lValhalla:"
+    - "  &f[%bungee_valhalla%/64]"
     - "&7&m----------------------"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -135,7 +135,7 @@ announcements:
   enabled: true
 
   # Delay to send announcements (in seconds)
-  delay: 60
+  delay: 90
 
   # How many players should be required to send announcements?
   required_players: 1
@@ -143,26 +143,19 @@ announcements:
   sound:
     enabled: true
     value: BLOCK_NOTE_BLOCK_PLING
-    volume: 1.0
-    pitch: 1.0
+    volume: 0.8
+    pitch: -3.0
 
   # Announcement list
   announcements:
     test1:
       - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7Rate this plugin 5 stars on Spigot!</center>"
+      - "<center>&e&lРады видеть вас</center>"
+      - "<center>&7Наш сайт: &3donat.tiltozavr.ru</center>"
+      - "<center>&7Наш telegram: tiltozavr_minecraft</center>"
+      - "<center>&7Наш discord: &3discord.gg/wBF2d3jX</center>"
       - "&r"
-    test2:
-      - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7This plugin was created by &eItsLewizzz</center>"
-      - "&r"
-    test3:
-      - "&r"
-      - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7Configure these messages in the &bconfig.yml</center>"
-      - "&r"
+    
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # | LAUNCHPAD                                |
@@ -234,6 +227,29 @@ anti_swear:
     - fuck
     - shit
     - bitch
+    - пидор
+    - пидорас
+    - пидр 
+    - хуесос
+    - хуйня
+    - залупа 
+    - пизда
+    - пиздато
+    - пиздатый 
+    - пизданутый 
+    - хуй 
+    - хуево
+    - хуевый 
+    - хуевая 
+    - залупная
+    - залупный 
+    - сука
+    - гнида
+    - гандон
+    - хуепутало
+    - чушпан
+    - нефор
+    - хуесоска
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # | WORLD EVENT SETTINGS                     |
@@ -285,15 +301,12 @@ join_events:
   - "[MESSAGE] &r"
   - "[MESSAGE] &r    &7Welcome, &b&n%player%&r &7to the server"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r  &2&lWEBSITE &fwww.examplemc.net"
-  - "[MESSAGE] &r  &3&lSTORE &fstore.examplemc.net"
-  - "[MESSAGE] &r  &9&lDISCORD &fdiscord.examplemc.net"
+  - "[MESSAGE] &r  &3&lSTORE &fdonat.tiltozavr.ru"
+  - "[MESSAGE] &r  &9&lDISCORD &fdiscord.gg/wBF2d3jX"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r            &7&oPowered By DeluxeHub"
   - "[MESSAGE] &8&m+---------------***---------------+"
   - "[TITLE] &b&lWELCOME;&f%player%;1;2;1"
   - "[SOUND] ENTITY_PLAYER_LEVELUP"
-  - "[GAMEMODE] survival"
   - "[EFFECT] SPEED;1"
 
 join_settings:
@@ -340,9 +353,9 @@ custom_join_items:
         - "[MESSAGE] &r"
         - "[MESSAGE] &e&lServer Information"
         - "[MESSAGE] &r"
-        - "[MESSAGE] &bWebsite: &fwww.examplemc.net"
-        - "[MESSAGE] &cStore: &fbuy.examplemc.net"
-        - "[MESSAGE] &dDiscord: &fdiscord.examplemc.net"
+        - "[MESSAGE] &bWebsite: &fdonat.tiltozavr.ru"
+        - "[MESSAGE] &dDiscord: &fdiscord.gg/wBF2d3jX"
+        - "[MESSAGE] &dTelegram: tiltozavr_minecraft"
         - "[MESSAGE] &r"
     server_selector:
       material: NETHER_STAR

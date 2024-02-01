@@ -1,32 +1,32 @@
-[15:44:29] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Booting up Velocity 3.3.0-SNAPSHOT (git-38558783-b345)...
-[15:44:29] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loading localizations...
-[15:44:30] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:  Connections will use kqueue channels, libdeflate (macOS ARM64 / Apple Silicon) compression, native (macOS ARM64 / Apple Silicon) ciphers
-[15:44:30] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]:  The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[15:44:30] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loading plugins...
-[15:44:30] [main/INFO] [limboapi]:  Initializing Simple Virtual World system...
-[15:44:30] [main/INFO] [limboapi]:  Hooking into EventManager, PlayerList/UpsertPlayerInfo and StateRegistry...
-[15:44:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limboapi 1.1.20 by Elytrium (https://elytrium.net/)
-[15:44:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limboauth 1.1.14-SNAPSHOT (git-4023a45) by Elytrium (https://elytrium.net/)
-[15:44:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limboauth-social-addon 1.0.11-SNAPSHOT by Elytrium (https://elytrium.net/)
-[15:44:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limbofilter 1.1.15 by Elytrium (https://elytrium.net/)
-[15:44:31] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loaded 4 plugins
-[15:44:31] [Velocity Async Event Executor - #0/INFO] [limboapi]:  Creating and preparing packets...
-[15:44:31] [Velocity Async Event Executor - #0/INFO] [limboapi]:  Loaded!
-[15:44:32] [Velocity Async Event Executor - #0/INFO] [limbofilter]:  Current captcha generator settings will consume 0,08GB RAM normally and 0,15GB RAM on reloads
-[15:44:32] [Velocity Async Event Executor - #0/INFO] [limbofilter]:  Modify the config to decrease RAM consumption
-[15:44:33] [CaptchaGeneratorThread/INFO] [limbofilter]:  Captcha generated in 392 ms.
-[15:44:33] [Netty kqueue Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:  Listening on /[0:0:0:0:0:0:0:0%0]:25565
-[15:44:33] [main/INFO] [com.velocitypowered.proxy.Velocity]:  Done (4,8s)!
-[15:44:36] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:54691) has connected to the LimboFilter Limbo
-[15:44:36] [Netty kqueue Worker #0/INFO] [limbofilter]:  [connected player] seymour_og (/127.0.0.1:54691) has client brand fabric
-[15:44:43] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:54691) has disconnected from the LimboFilter Limbo
-[15:44:43] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:54691) has connected to the LimboAuth Limbo
-[15:44:48] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:54691) has disconnected from the LimboAuth Limbo
-[15:44:48] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
-[15:44:48] [Netty kqueue Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub: exception encountered in com.velocitypowered.proxy.connection.backend.TransitionSessionHandler@6dcb8be8
+[16:34:37] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Booting up Velocity 3.3.0-SNAPSHOT (git-38558783-b345)...
+[16:34:37] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loading localizations...
+[16:34:38] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:  Connections will use kqueue channels, libdeflate (macOS ARM64 / Apple Silicon) compression, native (macOS ARM64 / Apple Silicon) ciphers
+[16:34:38] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]:  The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[16:34:38] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loading plugins...
+[16:34:38] [main/INFO] [limboapi]:  Initializing Simple Virtual World system...
+[16:34:38] [main/INFO] [limboapi]:  Hooking into EventManager, PlayerList/UpsertPlayerInfo and StateRegistry...
+[16:34:38] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limboapi 1.1.20 by Elytrium (https://elytrium.net/)
+[16:34:38] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limboauth 1.1.14-SNAPSHOT (git-4023a45) by Elytrium (https://elytrium.net/)
+[16:34:38] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limboauth-social-addon 1.0.11-SNAPSHOT by Elytrium (https://elytrium.net/)
+[16:34:38] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limbofilter 1.1.15 by Elytrium (https://elytrium.net/)
+[16:34:38] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loaded 4 plugins
+[16:34:38] [Velocity Async Event Executor - #0/INFO] [limboapi]:  Creating and preparing packets...
+[16:34:38] [Velocity Async Event Executor - #0/INFO] [limboapi]:  Loaded!
+[16:34:40] [Velocity Async Event Executor - #0/INFO] [limbofilter]:  Current captcha generator settings will consume 0,08GB RAM normally and 0,15GB RAM on reloads
+[16:34:40] [Velocity Async Event Executor - #0/INFO] [limbofilter]:  Modify the config to decrease RAM consumption
+[16:34:41] [CaptchaGeneratorThread/INFO] [limbofilter]:  Captcha generated in 450 ms.
+[16:34:41] [Netty kqueue Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:  Listening on /[0:0:0:0:0:0:0:0%0]:25565
+[16:34:41] [main/INFO] [com.velocitypowered.proxy.Velocity]:  Done (4,63s)!
+[16:34:58] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:56474) has connected to the LimboFilter Limbo
+[16:34:58] [Netty kqueue Worker #0/INFO] [limbofilter]:  [connected player] seymour_og (/127.0.0.1:56474) has client brand fabric
+[16:35:05] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:56474) has disconnected from the LimboFilter Limbo
+[16:35:05] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:56474) has connected to the LimboAuth Limbo
+[16:35:09] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:56474) has disconnected from the LimboAuth Limbo
+[16:35:09] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[16:35:09] [Netty kqueue Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub: exception encountered in com.velocitypowered.proxy.connection.backend.TransitionSessionHandler@45de8063
 com.velocitypowered.proxy.util.except.QuietRuntimeException: A packet did not decode successfully (invalid data). For more information, launch Velocity with -Dvelocity.packet-decode-logging=true to see more.
-[15:44:48] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
-[15:44:48] [Netty kqueue Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54691): unable to connect to server hub
+[16:35:09] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[16:35:09] [Netty kqueue Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:56474): unable to connect to server hub
 java.io.IOException: Unexpectedly disconnected from remote server
 	at com.velocitypowered.proxy.connection.backend.TransitionSessionHandler.disconnected(TransitionSessionHandler.java:215) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
 	at com.velocitypowered.proxy.connection.MinecraftConnection.channelInactive(MinecraftConnection.java:125) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
@@ -56,12 +56,12 @@ java.io.IOException: Unexpectedly disconnected from remote server
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
 	at java.lang.Thread.run(Thread.java:1623) [?:?]
-[15:44:48] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54691) has disconnected: Не удалось подключить вас к серверу hub. Пожалуйста, попробуйте снова через некоторое время.
-[15:45:59] [Netty kqueue Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
-[15:45:59] [Netty kqueue Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub: exception encountered in com.velocitypowered.proxy.connection.backend.TransitionSessionHandler@521ea1b4
+[16:35:09] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:56474) has disconnected: Не удалось подключить вас к серверу hub. Пожалуйста, попробуйте снова через некоторое время.
+[16:36:13] [Netty kqueue Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[16:36:13] [Netty kqueue Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub: exception encountered in com.velocitypowered.proxy.connection.backend.TransitionSessionHandler@3a34a820
 com.velocitypowered.proxy.util.except.QuietRuntimeException: A packet did not decode successfully (invalid data). For more information, launch Velocity with -Dvelocity.packet-decode-logging=true to see more.
-[15:45:59] [Netty kqueue Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
-[15:45:59] [Netty kqueue Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54781): unable to connect to server hub
+[16:36:13] [Netty kqueue Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[16:36:13] [Netty kqueue Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:56519): unable to connect to server hub
 java.io.IOException: Unexpectedly disconnected from remote server
 	at com.velocitypowered.proxy.connection.backend.TransitionSessionHandler.disconnected(TransitionSessionHandler.java:215) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
 	at com.velocitypowered.proxy.connection.MinecraftConnection.channelInactive(MinecraftConnection.java:125) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
@@ -91,12 +91,12 @@ java.io.IOException: Unexpectedly disconnected from remote server
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
 	at java.lang.Thread.run(Thread.java:1623) [?:?]
-[15:45:59] [Netty kqueue Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54781) has disconnected: Не удалось подключить вас к серверу hub. Пожалуйста, попробуйте снова через некоторое время.
-[15:46:06] [Netty kqueue Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
-[15:46:06] [Netty kqueue Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub: exception encountered in com.velocitypowered.proxy.connection.backend.TransitionSessionHandler@1acb6515
+[16:36:13] [Netty kqueue Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:56519) has disconnected: Не удалось подключить вас к серверу hub. Пожалуйста, попробуйте снова через некоторое время.
+[16:36:17] [Netty kqueue Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[16:36:17] [Netty kqueue Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub: exception encountered in com.velocitypowered.proxy.connection.backend.TransitionSessionHandler@63a52ce8
 com.velocitypowered.proxy.util.except.QuietRuntimeException: A packet did not decode successfully (invalid data). For more information, launch Velocity with -Dvelocity.packet-decode-logging=true to see more.
-[15:46:06] [Netty kqueue Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
-[15:46:06] [Netty kqueue Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54793): unable to connect to server hub
+[16:36:17] [Netty kqueue Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[16:36:17] [Netty kqueue Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:56526): unable to connect to server hub
 java.io.IOException: Unexpectedly disconnected from remote server
 	at com.velocitypowered.proxy.connection.backend.TransitionSessionHandler.disconnected(TransitionSessionHandler.java:215) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
 	at com.velocitypowered.proxy.connection.MinecraftConnection.channelInactive(MinecraftConnection.java:125) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
@@ -126,6 +126,57 @@ java.io.IOException: Unexpectedly disconnected from remote server
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
 	at java.lang.Thread.run(Thread.java:1623) [?:?]
-[15:46:06] [Netty kqueue Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54793) has disconnected: Не удалось подключить вас к серверу hub. Пожалуйста, попробуйте снова через некоторое время.
-[15:47:15] [Thread-5/INFO] [com.velocitypowered.proxy.VelocityServer]:  Shutting down the proxy...
-[15:47:15] [Thread-5/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:  Closing endpoint /0.0.0.0:25565
+[16:36:17] [Netty kqueue Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:56526) has disconnected: Не удалось подключить вас к серверу hub. Пожалуйста, попробуйте снова через некоторое время.
+[16:36:48] [Netty kqueue Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[16:36:56] [Netty kqueue Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [connected player] seymour_og (/127.0.0.1:56533) has disconnected
+[16:36:56] [Netty kqueue Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[16:36:57] [Netty kqueue Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[16:37:00] [Netty kqueue Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [connected player] seymour_og (/127.0.0.1:56547) has disconnected
+[16:37:00] [Netty kqueue Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[16:41:28] [Netty kqueue Worker #8/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[16:50:30] [Netty kqueue Worker #8/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:56674): kicked from server hub: Server is restarting
+[16:50:30] [Netty kqueue Worker #8/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[16:50:30] [Netty kqueue Worker #8/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:56674) has disconnected: Вы были кикнуты с сервера hub: Server is restarting
+[16:51:02] [Netty kqueue Worker #9/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[17:10:26] [Netty kqueue Worker #9/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:57108): unable to connect to server valhalla
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe.doFinishConnect(AbstractKQueueChannel.java:665) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe.finishConnect(AbstractKQueueChannel.java:645) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe.shutdownInput(AbstractKQueueChannel.java:455) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe.readEOF(AbstractKQueueChannel.java:493) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.kqueue.KQueueEventLoop.processReady(KQueueEventLoop.java:220) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.kqueue.KQueueEventLoop.run(KQueueEventLoop.java:296) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[17:11:20] [Netty kqueue Worker #9/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> valhalla has connected
+[17:11:21] [Netty kqueue Worker #9/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[17:11:51] [Netty kqueue Worker #9/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[17:11:51] [Netty kqueue Worker #9/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> valhalla has disconnected
+[17:34:41] [CaptchaGeneratorThread/INFO] [limbofilter]:  Captcha generated in 522 ms.
+[17:40:27] [Netty kqueue Worker #9/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [connected player] seymour_og (/127.0.0.1:57108) has disconnected
+[17:40:27] [Netty kqueue Worker #9/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[17:40:29] [Netty kqueue Worker #11/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[17:41:25] [Netty kqueue Worker #11/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [connected player] seymour_og (/127.0.0.1:59821) has disconnected
+[17:41:25] [Netty kqueue Worker #11/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[17:41:26] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[17:46:03] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> valhalla has connected
+[17:46:04] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[17:46:15] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[17:46:16] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> valhalla has disconnected
+[17:46:20] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> valhalla has connected
+[17:46:20] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[17:46:31] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[17:46:31] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> valhalla has disconnected
+[17:48:14] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> valhalla has connected
+[17:48:14] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[17:48:18] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [connected player] seymour_og (/127.0.0.1:59873) has disconnected
+[17:48:18] [Netty kqueue Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> valhalla has disconnected
+[17:48:19] [Netty kqueue Worker #15/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[17:48:22] [Netty kqueue Worker #15/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [connected player] seymour_og (/127.0.0.1:60241) has disconnected
+[17:48:22] [Netty kqueue Worker #15/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
