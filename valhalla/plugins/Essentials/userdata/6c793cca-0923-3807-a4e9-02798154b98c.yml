@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1706705696267
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1706771382058
+  login: 1706771357495
+  kits:
+    tools: 1706626979327
+money: '0'
+last-account-name: seymour_og
+lastlocation:
+  world: 25ea8018-4ac3-4e3a-9742-7856ec83d86e
+  world-name: world
+  x: 507.45758963985156
+  y: 88.0
+  z: 49.213314074181646
+  yaw: -153.16571044921875
+  pitch: 31.350618362426758
+logoutlocation:
+  world: 25ea8018-4ac3-4e3a-9742-7856ec83d86e
+  world-name: world
+  x: -126.16143432124998
+  y: 63.0
+  z: 458.8668683053268
+  yaw: -80.09942626953125
+  pitch: 22.049955368041992

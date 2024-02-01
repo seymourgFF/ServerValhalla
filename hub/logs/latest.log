@@ -1,0 +1,201 @@
+[15:45:38] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:45:39] [ServerMain/INFO]: Loaded 7 recipes
+[15:45:39] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[15:45:39] [Server thread/INFO]: Loading properties
+[15:45:39] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[15:45:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:45:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:45:40] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[15:45:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[15:45:40] [Server thread/INFO]: Default game type: SURVIVAL
+[15:45:40] [Server thread/INFO]: Generating keypair
+[15:45:40] [Server thread/INFO]: Starting Minecraft server on *:25566
+[15:45:40] [Server thread/INFO]: Using default channel type
+[15:45:41] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[15:45:41] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[15:45:41] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
+[15:45:41] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.5
+[15:45:41] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[15:45:41] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[15:45:41] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.8.5-SNAPSHOT-642;a7c5f66
+[15:45:42] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7dda618f]
+[15:45:42] [Server thread/INFO]: [HolographicDisplays] Loading server plugin HolographicDisplays v3.0.3
+[15:45:42] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
+[15:45:42] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.6
+[15:45:42] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.4
+[15:45:42] [Server thread/INFO]: [ZNPCsPlus] Loading server plugin ZNPCsPlus v1.0.8
+[15:45:42] [Server thread/WARN]: [ZNPCsPlus] [packetevents] We currently do not support the minecraft version 1.20.1, so things might break. PacketEvents will behave as if the minecraft version were 1.19.4!
+[15:45:42] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[15:45:42] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[15:45:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:45:42] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[15:45:42] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.8.5-SNAPSHOT-642;a7c5f66
+[15:45:42] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[15:45:42] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[15:45:42] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:45:42] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:45:42] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
+[15:45:43] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.6
+[15:45:43] [Server thread/INFO]: [SkinsRestorer] -------------------------/Warning\-------------------------
+[15:45:43] [Server thread/INFO]: [SkinsRestorer] This plugin is running in PROXY mode!
+[15:45:43] [Server thread/INFO]: [SkinsRestorer] You have to do all configuration at config file
+[15:45:43] [Server thread/INFO]: [SkinsRestorer] inside your BungeeCord/Velocity server.
+[15:45:43] [Server thread/INFO]: [SkinsRestorer] (<proxy>/plugins/SkinsRestorer/)
+[15:45:43] [Server thread/INFO]: [SkinsRestorer] -------------------------\Warning/-------------------------
+[15:45:43] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[15:45:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:45:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:45:43] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:45:43] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[15:45:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:45:43] [Server thread/INFO]: Preparing level "world"
+[15:45:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:45:43] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 6 build(s) out of date.
+You are running build 642, the latest version is build 648.
+Update at https://www.spigotmc.org/resources/13932/
+[15:45:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:45:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[15:45:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[15:45:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |------------------|
+[15:45:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |    Proxy Mode    |
+[15:45:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[15:45:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:45:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Version: 15.0.6
+[15:45:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Commit: 3b21903
+[15:45:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     This is the latest version!
+[15:45:43] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:45:43] [Server thread/INFO]: Time elapsed: 245 ms
+[15:45:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:45:43] [Server thread/INFO]: Time elapsed: 38 ms
+[15:45:43] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[15:45:44] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:45:44] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[15:45:44] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[15:45:44] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[15:45:44] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[15:45:44] [Server thread/INFO]: [DeluxeHub] 
+[15:45:44] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[15:45:44] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[15:45:44] [Server thread/INFO]: [DeluxeHub] 
+[15:45:44] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[15:45:44] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[15:45:44] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[15:45:44] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[15:45:44] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[15:45:44] [Server thread/INFO]: [DeluxeHub] Loaded 17 plugin modules.
+[15:45:44] [Server thread/INFO]: [DeluxeHub] 
+[15:45:44] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 209ms
+[15:45:44] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[15:45:44] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:45:44] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:45:44] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[15:45:44] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[15:45:44] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:45:44] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:45:44] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[15:45:44] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.3
+[15:45:44] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[15:45:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tab [4.1.2]
+[15:45:45] [Server thread/INFO]: [TAB] Enabled in 128ms
+[15:45:45] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[15:45:45] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[15:45:45] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
+[15:45:45] [Server thread/INFO]: | No Economy support without Vault!
+[15:45:45] [Server thread/INFO]: | Command file(s) found : 1
+[15:45:45] [Server thread/INFO]: | Config : Ready.
+[15:45:45] [Server thread/INFO]: | ProtocolLib found, features availables (SignMenu)
+[15:45:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mycommand [1.0.0]
+[15:45:45] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
+[15:45:45] [Server thread/INFO]: | Custom commands loaded : 44
+[15:45:45] [Server thread/INFO]: | You're running the latest version of MyCommand.
+[15:45:45] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[15:45:45] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[15:45:45] [Server thread/INFO]: [ZNPCsPlus] Enabling ZNPCsPlus v1.0.8
+[15:45:45] [Server thread/INFO]:   ___       __   __  __
+[15:45:45] [Server thread/INFO]:    _/ |\ | |__) |   (__` __|__   ZNPCsPlus v1.0.8
+[15:45:45] [Server thread/INFO]:   /__ | \| |    |__ .__)   |     Maintained with ❤  by Pyr#6969
+[15:45:45] [Server thread/INFO]: 
+[15:45:45] [Server thread/INFO]:  * Initializing Adventure...
+[15:45:45] [Server thread/INFO]:  * Initializing PacketEvents...
+[15:45:45] [Server thread/INFO]:  * Loading paths...
+[15:45:45] [Server thread/INFO]:  * Registering components...
+[15:45:45] [Server thread/INFO]:  * Starting tasks...
+[15:45:45] [Server thread/INFO]:  * Loading complete! (200ms)
+[15:45:45] [Server thread/INFO]: 
+[15:45:45] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[15:45:45] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[15:45:45] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[15:45:46] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[15:45:46] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[15:45:46] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[15:45:46] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[15:45:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[15:45:46] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[15:45:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[15:45:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[15:45:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[15:45:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[15:45:46] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:45:46] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:45:46] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[15:45:46] [Server thread/INFO]: Running delayed init tasks
+[15:45:46] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Получение информации о версии...
+[15:45:46] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[15:45:46] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[15:45:46] [Server thread/INFO]: Done (6.697s)! For help, type "help"
+[15:45:46] [Server thread/INFO]: Timings Reset
+[15:45:46] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.4
+[15:45:46] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[15:45:46] [Server thread/INFO]: [HolographicDisplays] https://dev.bukkit.org/projects/holographic-displays
+[15:45:59] [User Authenticator #0/INFO]: UUID of player seymour_og is 6c793cca-0923-3807-a4e9-02798154b98c
+[15:45:59] [Server thread/INFO]: + seymour_og Connected
+[15:45:59] [Server thread/INFO]: seymour_og[/127.0.0.1:54782] logged in with entity id 134 at ([world]-430.8593606293116, 136.0, -219.3172526446821)
+[15:45:59] [Server thread/INFO]: seymour_og lost connection: Disconnected
+[15:45:59] [Server thread/INFO]: - seymour_og Disconnected
+[15:46:06] [User Authenticator #0/INFO]: UUID of player seymour_og is 6c793cca-0923-3807-a4e9-02798154b98c
+[15:46:06] [Server thread/INFO]: + seymour_og Connected
+[15:46:07] [Server thread/INFO]: seymour_og[/127.0.0.1:54794] logged in with entity id 135 at ([world]-430.8593606293116, 136.0, -219.3172526446821)
+[15:46:07] [Server thread/INFO]: seymour_og lost connection: Disconnected
+[15:46:07] [Server thread/INFO]: - seymour_og Disconnected
+[15:47:49] [Netty Server IO #3/INFO]: Disconnecting com.mojang.authlib.GameProfile@4209f972[id=<null>,name=seymour_og,properties={},legacy=false] (/127.0.0.1:54885): This server requires you to connect with Velocity.
+[15:47:49] [Server thread/INFO]: com.mojang.authlib.GameProfile@4209f972[id=<null>,name=seymour_og,properties={},legacy=false] (/127.0.0.1:54885) lost connection: This server requires you to connect with Velocity.
+[15:50:31] [Server thread/INFO]: Stopping the server
+[15:50:31] [Server thread/INFO]: Stopping server
+[15:50:31] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[15:50:31] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[15:50:31] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[15:50:31] [Server thread/INFO]: [ZNPCsPlus] Disabling ZNPCsPlus v1.0.8
+[15:50:31] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.4
+[15:50:31] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[15:50:31] [Server thread/INFO]: | Tasks : Stopped all tasks.
+[15:50:31] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
+[15:50:31] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.6
+[15:50:31] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
+[15:50:31] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:50:31] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.3
+[15:50:31] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.8.5-SNAPSHOT-642;a7c5f66
+[15:50:31] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:50:31] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[15:50:31] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[15:50:31] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.5
+[15:50:31] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[15:50:31] [Server thread/INFO]: Saving players
+[15:50:31] [Server thread/INFO]: Saving worlds
+[15:50:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:50:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:50:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:50:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:50:32] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1,00s
+[15:50:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:50:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:50:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:50:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:50:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:50:32] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,14s
+[15:50:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:50:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:50:32] [Server thread/INFO]: Flushing Chunk IO
+[15:50:32] [Server thread/INFO]: Closing Thread Pool
+[15:50:32] [Server thread/INFO]: Closing Server

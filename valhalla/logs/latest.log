@@ -1,0 +1,414 @@
+[14:02:17] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:02:18] [ServerMain/INFO]: Loaded 7 recipes
+[14:02:18] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[14:02:18] [Server thread/INFO]: Loading properties
+[14:02:18] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[14:02:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:02:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:02:19] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[14:02:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[14:02:19] [Server thread/INFO]: Default game type: SURVIVAL
+[14:02:19] [Server thread/INFO]: Generating keypair
+[14:02:19] [Server thread/INFO]: Starting Minecraft server on *:25567
+[14:02:19] [Server thread/INFO]: Using default channel type
+[14:02:19] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[14:02:19] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [EasyPayments] Loading 2 libraries... please wait
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [EasyPayments] Loaded library /Users/seymourg/serv_plug/server/libraries/org/postgresql/postgresql/42.3.3/postgresql-42.3.3.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [EasyPayments] Loaded library /Users/seymourg/serv_plug/server/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [EasyPayments] Loaded library /Users/seymourg/serv_plug/server/libraries/com/h2database/h2/2.1.210/h2-2.1.210.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[14:02:20] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /Users/seymourg/serv_plug/server/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[14:02:20] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
+[14:02:20] [Server thread/INFO]: [Chatty] Loading server plugin Chatty v2.19.14
+[14:02:20] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[14:02:20] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.8.5-SNAPSHOT-642;a7c5f66
+[14:02:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7c315cfb]
+[14:02:21] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[14:02:21] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[14:02:21] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[14:02:21] [Server thread/INFO]: [EasyPayments] Loading server plugin EasyPayments v2.2.1
+[14:02:21] [Server thread/INFO]: [HolographicDisplays] Loading server plugin HolographicDisplays v3.0.3
+[14:02:21] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-beta2-b2453
+[14:02:21] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.2
+[14:02:21] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
+[14:02:21] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.6
+[14:02:21] [Server thread/INFO]: [RandomItemDropsPlugin] Loading server plugin RandomItemDropsPlugin v1.0-SNAPSHOT
+[14:02:21] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.0
+[14:02:21] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
+[14:02:21] [Server thread/INFO]: [ClansLite] Loading server plugin ClansLite v1.4.3
+[14:02:21] [Server thread/INFO]: [Parties] Loading server plugin Parties v3.2.14
+[14:02:21] [Server thread/INFO]: [Parties] Loading libraries of Parties v3.2.14, this may take a while
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for jar-relocator
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for asm
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for asm-commons
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for gson
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-core
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for geantyref
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for caffeine
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-stringtemplate4
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for ST4
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for antlr-runtime
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-sqlobject
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for slf4j-api
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for slf4j-simple
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for HikariCP
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for mariadb-java-client
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for mysql-connector-j
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for postgresql
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for h2
+[14:02:21] [Server thread/INFO]: [Parties] Verifying checksum for exp4j
+[14:02:21] [Server thread/INFO]: [PvPManager] Loading server plugin PvPManager v3.15.9
+[14:02:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:02:21] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[14:02:21] [Server thread/INFO]:         __    
+[14:02:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[14:02:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:02:21] [Server thread/INFO]: 
+[14:02:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:02:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:02:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:02:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:02:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1127ms)
+[14:02:22] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.8.5-SNAPSHOT-642;a7c5f66
+[14:02:22] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[14:02:23] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[14:02:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:02:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:02:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
+[14:02:23] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.6
+[14:02:24] [Server thread/INFO]: [SkinsRestorer] -------------------------/Warning\-------------------------
+[14:02:24] [Server thread/INFO]: [SkinsRestorer] This plugin is running in PROXY mode!
+[14:02:24] [Server thread/INFO]: [SkinsRestorer] You have to do all configuration at config file
+[14:02:24] [Server thread/INFO]: [SkinsRestorer] inside your BungeeCord/Velocity server.
+[14:02:24] [Server thread/INFO]: [SkinsRestorer] (<proxy>/plugins/SkinsRestorer/)
+[14:02:24] [Server thread/INFO]: [SkinsRestorer] -------------------------\Warning/-------------------------
+[14:02:24] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[14:02:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:02:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:02:24] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[14:02:24] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[14:02:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:02:24] [Server thread/INFO]: Preparing level "world"
+[14:02:24] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 6 build(s) out of date.
+You are running build 642, the latest version is build 648.
+Update at https://www.spigotmc.org/resources/13932/
+[14:02:24] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:02:24] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[14:02:24] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:02:24] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |------------------|
+[14:02:24] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |    Proxy Mode    |
+[14:02:24] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[14:02:24] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:02:24] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Version: 15.0.6
+[14:02:24] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Commit: 3b21903
+[14:02:24] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     This is the latest version!
+[14:02:24] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:02:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:02:24] [Server thread/INFO]: Time elapsed: 245 ms
+[14:02:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:02:24] [Server thread/INFO]: Time elapsed: 51 ms
+[14:02:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:02:25] [Server thread/INFO]: Time elapsed: 34 ms
+[14:02:25] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.14
+[14:02:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[14:02:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:02:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[14:02:25] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[14:02:25] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[14:02:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:02:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:02:26] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[14:02:26] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[14:02:26] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[14:02:26] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[14:02:26] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[14:02:26] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[14:02:26] [Server thread/INFO]: Preparing start region for dimension minecraft:dom
+[14:02:26] [Server thread/INFO]: Time elapsed: 327 ms
+[14:02:27] [Server thread/INFO]: Preparing start region for dimension minecraft:zam
+[14:02:27] [Server thread/INFO]: Time elapsed: 222 ms
+[14:02:27] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[14:02:27] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[14:02:27] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[14:02:27] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[14:02:27] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[14:02:27] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:02:28] [Server thread/INFO]: [WorldGuard] (dom) TNT ignition is PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (dom) Lighters are PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (dom) Lava fire is PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (dom) Fire spread is UNRESTRICTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'dom'
+[14:02:28] [Server thread/INFO]: [WorldGuard] (zam) TNT ignition is PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (zam) Lighters are PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (zam) Lava fire is PERMITTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] (zam) Fire spread is UNRESTRICTED.
+[14:02:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'zam'
+[14:02:28] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:02:28] [Server thread/INFO]: [EasyPayments] Enabling EasyPayments v2.2.1
+[14:02:28] [Server thread/INFO]: [EasyPayments] Detected NMS version: 1_20_R1 (MC 1.20.1)
+[14:02:28] [Server thread/INFO]: [EasyPayments]  
+[14:02:28] [Server thread/INFO]: [EasyPayments]  §eEasyPayments §ris an official payment processing implementation.
+[14:02:28] [Server thread/INFO]: [EasyPayments]  §6© EasyDonate 2020-2023 §r- All rights reserved.
+[14:02:28] [Server thread/INFO]: [EasyPayments]  
+[14:02:28] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.3
+[14:02:28] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta2-b2453
+[14:02:29] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[14:02:29] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[14:02:29] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[14:02:29] [Server thread/INFO]: [AuthMe] Hooked successfully into Multiverse-Core
+[14:02:29] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[14:02:29] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[14:02:29] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.2
+[14:02:29] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[14:02:29] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[14:02:29] [Server thread/INFO]: --------------------
+[14:02:29] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[14:02:29] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[14:02:29] [Server thread/INFO]: --------------------
+[14:02:29] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[14:02:30] [Server thread/INFO]: [TAB] Enabled in 189ms
+[14:02:30] [Server thread/INFO]: [RandomItemDropsPlugin] Enabling RandomItemDropsPlugin v1.0-SNAPSHOT
+[14:02:30] [Server thread/INFO]: [RandomItemDropsPlugin] [STDOUT] Все прошло успешно
+[14:02:30] [Server thread/WARN]: Nag author(s): '[]' of 'RandomItemDropsPlugin v1.0-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[14:02:30] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.0
+[14:02:30] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
+[14:02:30] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[14:02:30] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
+[14:02:30] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[14:02:30] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
+[14:02:30] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[14:02:30] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "dom"
+[14:02:30] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[14:02:30] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "zam"
+[14:02:30] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[14:02:30] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
+[14:02:30] [Server thread/INFO]: [ClansLite] Enabling ClansLite v1.4.3
+[14:02:30] [Server thread/INFO]: -------------------------------------------
+[14:02:30] [Server thread/INFO]: ClansLite: A supported Minecraft version has been detected
+[14:02:30] [Server thread/INFO]: ClansLite: Your server version is: git-Paper-196 (MC: 1.20.1)
+[14:02:30] [Server thread/INFO]: ClansLite: Continuing plugin startup
+[14:02:30] [Server thread/INFO]: -------------------------------------------
+[14:02:30] [Server thread/INFO]: -------------------------------------------
+[14:02:30] [Server thread/INFO]: ClansLite: PlugManX not found!
+[14:02:30] [Server thread/INFO]: ClansLite: Disabling PlugManX hook loader
+[14:02:30] [Server thread/INFO]: ClansLite: Continuing plugin startup
+[14:02:30] [Server thread/INFO]: -------------------------------------------
+[14:02:30] [Server thread/INFO]: ClansLite: Global GUI system enabled!
+[14:02:30] [Server thread/INFO]: ClansLite: Chest protection system enabled!
+[14:02:30] [Server thread/INFO]: -------------------------------------------
+[14:02:30] [Server thread/INFO]: ClansLite: PlaceholderAPI not found!
+[14:02:30] [Server thread/INFO]: ClansLite: External placeholders disabled!
+[14:02:30] [Server thread/INFO]: -------------------------------------------
+[14:02:30] [Server thread/INFO]: -------------------------------------------
+[14:02:30] [Server thread/INFO]: ClansLite: FloodgateApi not found!
+[14:02:30] [Server thread/INFO]: ClansLite: Bedrock support may not function!
+[14:02:30] [Server thread/INFO]: -------------------------------------------
+[14:02:30] [Server thread/INFO]: -------------------------------------------
+[14:02:30] [Server thread/INFO]: ClansLite: Plugin by: Loving11ish
+[14:02:30] [Server thread/INFO]: ClansLite: has been loaded successfully
+[14:02:30] [Server thread/INFO]: ClansLite: Plugin Version: 1.4.3
+[14:02:30] [Server thread/INFO]: -------------------------------------------
+[14:02:30] [Server thread/INFO]: [Parties] Enabling Parties v3.2.14
+[14:02:30] [Server thread/INFO]: [Parties] Initializing Parties v3.2.14
+[14:02:32] [Server thread/INFO]: [Parties] Parties v3.2.14 enabled
+[14:02:32] [Server thread/INFO]: [PvPManager] Enabling PvPManager v3.15.9
+[14:02:32] [Server thread/INFO]: [PvPManager] Using player nametags: true
+[14:02:32] [Server thread/INFO]: [PvPManager] Connected to SQLITE database successfully
+[14:02:32] [Server thread/INFO]: [PvPManager] Players stored: 2
+[14:02:32] [Server thread/INFO]: [PvPManager] WorldGuard Found! Enabling Support For WorldGuard Regions
+[14:02:32] [Server thread/INFO]: [PvPManager] Essentials Found! Hooked successfully
+[14:02:32] [Server thread/WARN]: [PvPManager] Vault not found! Features requiring Vault won't work!
+[14:02:32] [Server thread/INFO]: [PvPManager] PvPManager v3.15.9 enabled (282 ms)
+[14:02:33] [parties-pool-0/INFO]: [Parties] Parties v3.2.14 found a new version: 3.2.15
+[14:02:33] [Server thread/INFO]: Running delayed init tasks
+[14:02:33] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[14:02:33] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Получение информации о версии...
+[14:02:33] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[14:02:33] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[14:02:33] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[14:02:33] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[14:02:33] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[14:02:33] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[14:02:33] [Server thread/INFO]: [Parties] Hooked into LuckPerms
+[14:02:33] [Server thread/INFO]: [Parties] Hooked into Essentials
+[14:02:33] [Server thread/INFO]: Done (14.804s)! For help, type "help"
+[14:02:33] [Server thread/INFO]: Timings Reset
+[14:02:33] [PvPManager Worker Thread - 0/INFO]: [PvPManager] Checking for updates...
+[14:02:33] [Craft Scheduler Thread - 1 - EasyPayments/INFO]: [EasyPayments]  
+[14:02:33] [Craft Scheduler Thread - 1 - EasyPayments/INFO]: [EasyPayments]  §cHey! §rA new version of §eEasyPayments §ravailable!
+[14:02:33] [Craft Scheduler Thread - 1 - EasyPayments/INFO]: [EasyPayments]  §rYour version: §b2.2.1§r, available version: §a2.2.2
+[14:02:33] [Craft Scheduler Thread - 1 - EasyPayments/INFO]: [EasyPayments]  §rDownload: §6https://s3.easyx.ru/easydonate/resources/plugins/easypayments/2.2.2/EasyPayments-2.2.2.jar
+[14:02:33] [Craft Scheduler Thread - 1 - EasyPayments/INFO]: [EasyPayments]  
+[14:02:33] [Craft Scheduler Thread - 7 - ClansLite/INFO]: *-------------------------------------------*
+[14:02:33] [Craft Scheduler Thread - 7 - ClansLite/INFO]: ClansLite: Plugin is up to date!
+[14:02:33] [Craft Scheduler Thread - 7 - ClansLite/INFO]: *-------------------------------------------*
+[14:02:33] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.4
+[14:02:33] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[14:02:33] [Server thread/INFO]: [HolographicDisplays] https://dev.bukkit.org/projects/holographic-displays
+[14:02:34] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
+[14:02:38] [Craft Scheduler Thread - 23 - ClansLite/INFO]: ClansLite: Auto invite wipe task has started.
+[14:02:38] [Craft Scheduler Thread - 3 - ClansLite/INFO]: ClansLite: Auto save task has started.
+[14:02:39] [Craft Scheduler Thread - 23 - ClansLite/INFO]: ClansLite: Cleared all outstanding clan invites!
+[14:02:39] [Craft Scheduler Thread - 3 - ClansLite/INFO]: ClansLite: Saved all Clans to file!
+[14:02:42] [User Authenticator #0/INFO]: ClansLite: Global GUI system disabled!
+[14:02:42] [User Authenticator #0/INFO]: ClansLite: Chest protection system disabled!
+[14:02:42] [User Authenticator #0/INFO]: -------------------------------------------
+[14:02:42] [User Authenticator #0/INFO]: ClansLite: This plugin is only supported on online servers or servers running in an online network situation!
+[14:02:42] [User Authenticator #0/INFO]: ClansLite: Some features may behave incorrectly or may be broken completely!
+[14:02:42] [User Authenticator #0/INFO]: ClansLite: Please set 'online-mode=true' in 'server.properties'
+[14:02:42] [User Authenticator #0/INFO]: ClansLite: Or ensure your proxy setup is correct and your proxy is set to online mode!
+[14:02:42] [User Authenticator #0/INFO]: ClansLite: NO SUPPORT WILL BE GIVEN UNLESS THE ABOVE IS CHANGED/SETUP CORRECTLY!
+[14:02:42] [User Authenticator #0/INFO]: -------------------------------------------
+[14:02:42] [User Authenticator #0/INFO]: UUID of player seymour_og is 6c793cca-0923-3807-a4e9-02798154b98c
+[14:02:42] [Server thread/INFO]: > seymour_og joined the server.
+[14:02:42] [Server thread/INFO]: seymour_og[/127.0.0.1:51470] logged in with entity id 470 at ([world]-125.29192991055882, 63.0, 459.7466769191098)
+[14:02:50] [Server thread/INFO]: seymour_og lost connection: Disconnected
+[14:02:50] [Server thread/INFO]: > seymour_og left the server.
+[14:03:08] [User Authenticator #0/INFO]: UUID of player seymour_og is 6c793cca-0923-3807-a4e9-02798154b98c
+[14:03:09] [Server thread/INFO]: > seymour_og joined the server.
+[14:03:09] [Server thread/INFO]: seymour_og[/127.0.0.1:51493] logged in with entity id 611 at ([world]-125.12753175268732, 63.0, 459.77155680511845)
+[14:03:15] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] seymour_og logged in 127.0.0.1
+[14:03:26] [Server thread/INFO]: seymour_og lost connection: Disconnected
+[14:03:26] [Server thread/INFO]: > seymour_og left the server.
+[14:09:17] [User Authenticator #1/INFO]: UUID of player seymour_og is 6c793cca-0923-3807-a4e9-02798154b98c
+[14:09:17] [Server thread/INFO]: > seymour_og joined the server.
+[14:09:17] [Server thread/INFO]: seymour_og[/127.0.0.1:51726] logged in with entity id 695 at ([world]-126.16143432124998, 63.0, 458.8668683053268)
+[14:09:21] [Craft Scheduler Thread - 30 - AuthMe/INFO]: [AuthMe] seymour_og logged in 127.0.0.1
+[14:09:42] [Server thread/INFO]: seymour_og lost connection: Disconnected
+[14:09:42] [Server thread/INFO]: > seymour_og left the server.
+[14:17:39] [Craft Scheduler Thread - 38 - ClansLite/INFO]: ClansLite: Cleared all outstanding clan invites!
+[14:17:39] [Craft Scheduler Thread - 37 - ClansLite/INFO]: ClansLite: Saved all Clans to file!
+[14:27:14] [Server thread/INFO]: Stopping the server
+[14:27:14] [Server thread/INFO]: Stopping server
+[14:27:14] [Server thread/INFO]: [PvPManager] Disabling PvPManager v3.15.9
+[14:27:14] [Server thread/INFO]: [PvPManager] Saving player data to storage...
+[14:27:14] [Server thread/INFO]: [PvPManager] Closed SQLITE storage
+[14:27:14] [Server thread/INFO]: [Parties] Disabling Parties v3.2.14
+[14:27:14] [Server thread/INFO]: [Parties] Disabling Parties
+[14:27:14] [Server thread/INFO]: [Parties] Parties disabled
+[14:27:14] [Server thread/INFO]: [ClansLite] Disabling ClansLite v1.4.3
+[14:27:14] [Server thread/INFO]: -------------------------------------------
+[14:27:14] [Server thread/INFO]: ClansLite: Plugin by: Loving11ish
+[14:27:14] [Server thread/INFO]: ClansLite: Background tasks have disabled successfully!
+[14:27:14] [Server thread/INFO]: ClansLite: All clans saved to clans.yml successfully!
+[14:27:14] [Server thread/INFO]: ClansLite: All users saved to usermap.yml successfully!
+[14:27:14] [Server thread/INFO]: ClansLite: Plugin Version: 1.4.3
+[14:27:14] [Server thread/INFO]: ClansLite: Has been shutdown successfully
+[14:27:14] [Server thread/INFO]: ClansLite: Goodbye!
+[14:27:14] [Server thread/INFO]: -------------------------------------------
+[14:27:14] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
+[14:27:14] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.0
+[14:27:14] [Server thread/INFO]: [RandomItemDropsPlugin] Disabling RandomItemDropsPlugin v1.0-SNAPSHOT
+[14:27:14] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.6
+[14:27:14] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
+[14:27:14] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:27:14] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.2
+[14:27:14] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[14:27:15] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.2
+[14:27:15] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-beta2-b2453
+[14:27:15] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[14:27:15] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2-b2453 disabled!
+[14:27:15] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.3
+[14:27:15] [Server thread/INFO]: [EasyPayments] Disabling EasyPayments v2.2.1
+[14:27:15] [Server thread/INFO]: [EasyPayments] Closing internal tasks...
+[14:27:15] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[14:27:15] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[14:27:15] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[14:27:15] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[14:27:15] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.8.5-SNAPSHOT-642;a7c5f66
+[14:27:15] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:27:15] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[14:27:15] [Server thread/INFO]: [Chatty] Disabling Chatty v2.19.14
+[14:27:15] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.102
+[14:27:15] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:27:15] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:27:15] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:27:15] [Server thread/INFO]: Saving players
+[14:27:16] [Server thread/INFO]: Saving worlds
+[14:27:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 76 entity chunks, 0 poi chunks in world 'world' in 0,03s
+[14:27:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:27:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 14 entity chunks, 0 poi chunks in world 'world_nether' in 0,03s
+[14:27:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:27:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,03s
+[14:27:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:27:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[dom]'/minecraft:dom
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'dom'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'dom'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'dom'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 40 entity chunks, 0 poi chunks in world 'dom' in 0,04s
+[14:27:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (dom): All chunks are saved
+[14:27:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[zam]'/minecraft:zam
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'zam'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'zam'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'zam'
+[14:27:16] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 155 entity chunks, 0 poi chunks in world 'zam' in 0,06s
+[14:27:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (zam): All chunks are saved
+[14:27:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:27:16] [Server thread/INFO]: Flushing Chunk IO
+[14:27:16] [Server thread/INFO]: Closing Thread Pool
+[14:27:16] [Server thread/INFO]: Closing Server

@@ -1,0 +1,131 @@
+[15:44:29] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Booting up Velocity 3.3.0-SNAPSHOT (git-38558783-b345)...
+[15:44:29] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loading localizations...
+[15:44:30] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:  Connections will use kqueue channels, libdeflate (macOS ARM64 / Apple Silicon) compression, native (macOS ARM64 / Apple Silicon) ciphers
+[15:44:30] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]:  The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[15:44:30] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loading plugins...
+[15:44:30] [main/INFO] [limboapi]:  Initializing Simple Virtual World system...
+[15:44:30] [main/INFO] [limboapi]:  Hooking into EventManager, PlayerList/UpsertPlayerInfo and StateRegistry...
+[15:44:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limboapi 1.1.20 by Elytrium (https://elytrium.net/)
+[15:44:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limboauth 1.1.14-SNAPSHOT (git-4023a45) by Elytrium (https://elytrium.net/)
+[15:44:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limboauth-social-addon 1.0.11-SNAPSHOT by Elytrium (https://elytrium.net/)
+[15:44:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]:  Loaded plugin limbofilter 1.1.15 by Elytrium (https://elytrium.net/)
+[15:44:31] [main/INFO] [com.velocitypowered.proxy.VelocityServer]:  Loaded 4 plugins
+[15:44:31] [Velocity Async Event Executor - #0/INFO] [limboapi]:  Creating and preparing packets...
+[15:44:31] [Velocity Async Event Executor - #0/INFO] [limboapi]:  Loaded!
+[15:44:32] [Velocity Async Event Executor - #0/INFO] [limbofilter]:  Current captcha generator settings will consume 0,08GB RAM normally and 0,15GB RAM on reloads
+[15:44:32] [Velocity Async Event Executor - #0/INFO] [limbofilter]:  Modify the config to decrease RAM consumption
+[15:44:33] [CaptchaGeneratorThread/INFO] [limbofilter]:  Captcha generated in 392 ms.
+[15:44:33] [Netty kqueue Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:  Listening on /[0:0:0:0:0:0:0:0%0]:25565
+[15:44:33] [main/INFO] [com.velocitypowered.proxy.Velocity]:  Done (4,8s)!
+[15:44:36] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:54691) has connected to the LimboFilter Limbo
+[15:44:36] [Netty kqueue Worker #0/INFO] [limbofilter]:  [connected player] seymour_og (/127.0.0.1:54691) has client brand fabric
+[15:44:43] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:54691) has disconnected from the LimboFilter Limbo
+[15:44:43] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:54691) has connected to the LimboAuth Limbo
+[15:44:48] [Netty kqueue Worker #0/INFO] [limboapi]:  seymour_og (/127.0.0.1:54691) has disconnected from the LimboAuth Limbo
+[15:44:48] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[15:44:48] [Netty kqueue Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub: exception encountered in com.velocitypowered.proxy.connection.backend.TransitionSessionHandler@6dcb8be8
+com.velocitypowered.proxy.util.except.QuietRuntimeException: A packet did not decode successfully (invalid data). For more information, launch Velocity with -Dvelocity.packet-decode-logging=true to see more.
+[15:44:48] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[15:44:48] [Netty kqueue Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54691): unable to connect to server hub
+java.io.IOException: Unexpectedly disconnected from remote server
+	at com.velocitypowered.proxy.connection.backend.TransitionSessionHandler.disconnected(TransitionSessionHandler.java:215) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelInactive(MinecraftConnection.java:125) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.kqueue.KQueueEventLoop.run(KQueueEventLoop.java:300) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[15:44:48] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54691) has disconnected: Не удалось подключить вас к серверу hub. Пожалуйста, попробуйте снова через некоторое время.
+[15:45:59] [Netty kqueue Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[15:45:59] [Netty kqueue Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub: exception encountered in com.velocitypowered.proxy.connection.backend.TransitionSessionHandler@521ea1b4
+com.velocitypowered.proxy.util.except.QuietRuntimeException: A packet did not decode successfully (invalid data). For more information, launch Velocity with -Dvelocity.packet-decode-logging=true to see more.
+[15:45:59] [Netty kqueue Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[15:45:59] [Netty kqueue Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54781): unable to connect to server hub
+java.io.IOException: Unexpectedly disconnected from remote server
+	at com.velocitypowered.proxy.connection.backend.TransitionSessionHandler.disconnected(TransitionSessionHandler.java:215) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelInactive(MinecraftConnection.java:125) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.kqueue.KQueueEventLoop.run(KQueueEventLoop.java:300) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[15:45:59] [Netty kqueue Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54781) has disconnected: Не удалось подключить вас к серверу hub. Пожалуйста, попробуйте снова через некоторое время.
+[15:46:06] [Netty kqueue Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has connected
+[15:46:06] [Netty kqueue Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub: exception encountered in com.velocitypowered.proxy.connection.backend.TransitionSessionHandler@1acb6515
+com.velocitypowered.proxy.util.except.QuietRuntimeException: A packet did not decode successfully (invalid data). For more information, launch Velocity with -Dvelocity.packet-decode-logging=true to see more.
+[15:46:06] [Netty kqueue Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]:  [server connection] seymour_og -> hub has disconnected
+[15:46:06] [Netty kqueue Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54793): unable to connect to server hub
+java.io.IOException: Unexpectedly disconnected from remote server
+	at com.velocitypowered.proxy.connection.backend.TransitionSessionHandler.disconnected(TransitionSessionHandler.java:215) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at com.velocitypowered.proxy.connection.MinecraftConnection.channelInactive(MinecraftConnection.java:125) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.channel.kqueue.KQueueEventLoop.run(KQueueEventLoop.java:300) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.3.0-SNAPSHOT (git-38558783-b345)]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+[15:46:06] [Netty kqueue Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]:  [connected player] seymour_og (/127.0.0.1:54793) has disconnected: Не удалось подключить вас к серверу hub. Пожалуйста, попробуйте снова через некоторое время.
+[15:47:15] [Thread-5/INFO] [com.velocitypowered.proxy.VelocityServer]:  Shutting down the proxy...
+[15:47:15] [Thread-5/INFO] [com.velocitypowered.proxy.network.ConnectionManager]:  Closing endpoint /0.0.0.0:25565
